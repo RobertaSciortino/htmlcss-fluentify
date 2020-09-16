@@ -66,15 +66,17 @@ li {
     margin-right: 20px;
 }
 
-.button .login {
-    border: 1px solid #001A4F;
-}
 
 .button {
     padding: 10px 20px;
     background-color: #64DE82;
     border: 1px solid #64DE82;
     border-radius: 5px;
+}
+
+.button.login {
+    border: 1px solid #001A4F;
+    background-color: #FFF;
 }
 
 /* -------fine header fixed------- */
