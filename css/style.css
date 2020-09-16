@@ -30,6 +30,7 @@ a {
 
 h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 /* -------inizio header fixed------- */
 
@@ -115,7 +116,7 @@ li {
 .buy-plan {
     margin-top: 150px;
     margin-bottom: 150px;
-    width: 55%;
+    width: 60%;
 }
 
 .buy-plan *{
@@ -132,11 +133,69 @@ h4 {
 
 h1 {
     font-size: 44px;
-    font-weight: 500;
 }
 
 p {
     font-family: 'Maven Pro', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 20px;
 }
+
+/* --------fine jumbotron------- */
+
+/* -------inizio method-info------- */
+
+.method-info::after {
+    content: '';
+    margin: 0;
+    display: table;
+}
+
+.image, .method {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.image {
+    float: left;
+}
+
+.method {
+    float: left;
+    padding: 100px 0 80px 20px;
+}
+
+span {
+    color: #65DE82;
+    display: inline-block;
+}
+
+h2 {
+    color: #737373;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #001A4F;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.item p {
+    color: #727272;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.item:not(:last-of-type) {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* -------fine method-info------- */
