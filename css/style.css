@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+width: 1200px;
+height: 100px;
+margin: auto;
+}
+
+/* -------inizio header fixed------- */
+
+header {
+    background-color: #FFF;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+img {
+    width: 120px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-right: 20px;
+    float: left;
+}
+
+.navbar {
+    width: 70%;
+    float: left;
+    font-size: 12px;
+}
+
+header a {
+    text-decoration: none;
+    color: #001A4F;
+}
+
+
+li {
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin: 30px 10px;
+    list-style-type: none;
+}
+
+
+.buttons {
+    width: 30%;
+    float: right;
+    font-size: 12px;
+    padding-top: 40px;
+}
+
+.buttons a {
+    margin-right: 20px;
+}
+
+.button .login {
+    border: 1px solid #001A4F;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #64DE82;
+    border: 1px solid #64DE82;
+    border-radius: 5px;
+}
+
+/* -------fine header fixed------- */
