@@ -145,9 +145,9 @@ p {
 
 /* -------inizio method-info------- */
 
-.method-info::after {
+.method-info .container {
     content: '';
-    margin: 0;
+    clear: both;
     display: table;
 }
 
@@ -203,21 +203,23 @@ h3 {
 
 /* -------inizio row-bigicons------ */
 
-.row-bigicons .container::after {
-    content: '';
-    margin: 0;
-    display: table;
-}
-
 .row-bigicons {
     text-align: center;
+}
+
+
+.row-bigicons .container {
+    content: '';
+    clear: both;
+    display: table;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .big-icon {
     width: calc(100% / 3);
     float: left;
     padding-top: 20px;
-    padding-bottom: 50px;
 }
 
 .big-icon img {
@@ -228,4 +230,19 @@ h3 {
 .big-icon p {
     color: #727272;
     line-height: 1.5;
+}
+
+/* ------fine row-bigicons */
+
+/* -------inizio row-app------- */
+
+/* .row-app {
+    background-color: #011B50;
+    width: 100%;
+} */
+
+.row-app .container {
+    content: '';
+    clear: both;
+    display: table;
 }
