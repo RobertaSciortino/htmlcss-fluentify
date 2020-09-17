@@ -219,7 +219,7 @@ h3 {
 .big-icon {
     width: calc(100% / 3);
     float: left;
-    padding-top: 20px;
+    padding: 20px 10px 0 10px;
 }
 
 .big-icon img {
@@ -236,13 +236,46 @@ h3 {
 
 /* -------inizio row-app------- */
 
-/* .row-app {
+.row-app {
     background-color: #011B50;
     width: 100%;
-} */
+}
 
 .row-app .container {
     content: '';
     clear: both;
     display: table;
 }
+
+.app-info {
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+}
+
+.app-info h2 {
+    line-height: 1;
+}
+
+.app-info h2, p {
+    color: #FFF;
+}
+
+.app-info a {
+ color: #64DE82;
+ font-size: 14px;
+ font-family: 'Poppins', sans-serif;
+}
+
+.image-app {
+    width: 40%;
+    height: 350px;
+    float: right;
+}
+
+.image-app img {
+    width: 350px;
+    display: block;
+}
+
+/* -------fine row-app------- */
