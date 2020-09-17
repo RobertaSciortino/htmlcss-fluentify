@@ -11,7 +11,6 @@ body {
 
 .container {
 width: 1200px;
-height: 100px;
 margin: auto;
 }
 
@@ -43,6 +42,10 @@ header {
     width: 100%;
 }
 
+header .container {
+    height: 100px;
+}
+
 header img {
     width: 120px;
     margin-top: 33px;
@@ -62,7 +65,7 @@ header a {
 }
 
 
-li {
+.navbar li {
     display: inline-block;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -145,7 +148,7 @@ p {
 
 /* -------inizio method-info------- */
 
-.method-info .container {
+.method-info .container::after {
     content: '';
     clear: both;
     display: table;
@@ -207,13 +210,15 @@ h3 {
     text-align: center;
 }
 
-
 .row-bigicons .container {
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.row-bigicons .container::after {
     content: '';
     clear: both;
     display: table;
-    padding-bottom: 50px;
-    margin-bottom: 10px;
 }
 
 .big-icon {
@@ -241,7 +246,7 @@ h3 {
     width: 100%;
 }
 
-.row-app .container {
+.row-app .container::after {
     content: '';
     clear: both;
     display: table;
@@ -282,7 +287,7 @@ h3 {
 
 /* -------inizio safety------ */
 
-.safety .container {
+.safety .container::after {
     content: '';
     clear: both;
     display: table;
@@ -323,11 +328,14 @@ h3 {
 }
 
 .customize .container {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.customize .container::after {
     content: '';
     clear: both;
     display: table;
-    padding-top: 60px;
-    padding-bottom: 20px;
 }
 
 .customize-plan, .buy {
@@ -345,3 +353,100 @@ h3 {
 }
 
 /* -------fine safety------ */
+
+/* -------inizio footer------- */
+
+footer {
+    background-color: #001A4F;
+}
+
+footer .container {
+    width: 1400px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+footer .container::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.contacts {
+    width: 15%;
+    float: left;
+    padding-right: 20px;
+}
+
+.contacts img {
+    padding-bottom: 20px;
+}
+.contacts p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contacts i {
+    color: #65DE82;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+.footer-navbar {
+    width: 85%;
+    float: right;
+}
+
+.row-top {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #FFF;
+}
+
+.row-top::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.nav {
+    width: calc(100% / 6);
+    float:left;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.nav li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+.nav li:first-child {
+    padding-bottom: 10px;
+}
+
+.nav a {
+    color: #FFF;
+}
+
+.nav a:not(first-of-type) {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.row-bottom {
+    width: 100%;
+    border-top: 1px solid #FFF;
+}
+
+.row-bottom li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.row-bottom a {
+    color: #FFF;
+}
