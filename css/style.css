@@ -315,3 +315,33 @@ h3 {
 }
 
 /* -------fine safety------- */
+
+/* -------inizio safety------ */
+
+.customize {
+    background-color: #2A4781;
+}
+
+.customize .container {
+    content: '';
+    clear: both;
+    display: table;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.customize-plan, .buy {
+    width: 50%;
+    float: left;
+}
+
+.customize-plan {
+    padding-right: 30px;
+    line-height: 1;
+}
+
+.customize-plan h2, .buy p {
+    color: #FFF;
+}
+
+/* -------fine safety------ */
