@@ -279,3 +279,39 @@ h3 {
 }
 
 /* -------fine row-app------- */
+
+/* -------inizio safety------ */
+
+.safety .container {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.safety-icon {
+    width: 40%;
+    float: left;
+}
+
+
+.safety-info {
+    width: 50%;
+    float: right;
+}
+
+.safety-icon {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 70px;
+}
+
+.safety-info {
+    padding-top: 130px;
+}
+
+.safety-info p {
+    color: #727272;
+    line-height: 1.5;
+}
+
+/* -------fine safety------- */
