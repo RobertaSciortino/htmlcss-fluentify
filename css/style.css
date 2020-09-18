@@ -429,11 +429,9 @@ footer .container::after{
 
 .nav a {
     color: #FFF;
-}
-
-.nav a:not(first-of-type) {
     font-family: 'Maven Pro', sans-serif;
 }
+
 
 .row-bottom {
     width: 100%;
